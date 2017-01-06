@@ -3,12 +3,16 @@
 import java.util.Optional;
 
 public class Kata01 {
+    //-----------------------------------------------------------------------------------
     // Comment out the line below with a line comment command-/
+    //-----------------------------------------------------------------------------------
 
     int i = 3;
 
+    //-----------------------------------------------------------------------------------
     // put the cursor inside this function and select increasing blocks,    option-up
     // then decrease block selection option-down
+    //-----------------------------------------------------------------------------------
 
     public void blah() {
         if ( true==false ) {
@@ -20,7 +24,9 @@ public class Kata01 {
     }
 
 
+    //-----------------------------------------------------------------------------------
     // Comment out the function below with a block comment  shift-ctrl-/
+    //-----------------------------------------------------------------------------------
 
 
     public void foo(String bla) {
@@ -28,17 +34,34 @@ public class Kata01 {
     }
 
 
+    //-----------------------------------------------------------------------------------
     // Delete line cmd-backspace
+    //-----------------------------------------------------------------------------------
 
     int foo=3;
 
 
+    //-----------------------------------------------------------------------------------
     // Reformat this code option-command-l
+    //-----------------------------------------------------------------------------------
 
     public
         long bar(int
                  i, long j) { return i*j; }
 
+    //-----------------------------------------------------------------------------------
+     // Uncomment this and lookup the parameter list  (command-p)
+    //-----------------------------------------------------------------------------------
 
+/*
+    public void longMethod(String name, String address, int age, int epoch) {
+    }
+
+    public void kata1() {
+        // this is the place to lookup parameters
+        longMethod();
+
+    }
+*/
 
 }
