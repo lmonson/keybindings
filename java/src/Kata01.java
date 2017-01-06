@@ -1,5 +1,7 @@
 // http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/
 
+import java.util.Optional;
+
 public class Kata01 {
     // Comment out the line below with a line comment command-/
 
@@ -10,9 +12,9 @@ public class Kata01 {
 
     public void blah() {
         if ( true==false ) {
-            foo();
+            foo(null);
             for(int i=0; i<12;++i) {
-                foo();
+                foo("asdf");
             }
         }
     }
@@ -21,7 +23,7 @@ public class Kata01 {
     // Comment out the function below with a block comment  shift-ctrl-/
 
 
-    public void foo() {
+    public void foo(String bla) {
         int j = 4;
     }
 
