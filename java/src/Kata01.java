@@ -1,6 +1,5 @@
 // http://moduscreate.com/12-intellij-idea-keyboard-shortcuts/
 
-import java.util.Optional;
 
 public class Kata01 {
     //-----------------------------------------------------------------------------------
