@@ -12,7 +12,7 @@
                 split point at eol --> add line after
         insert blank line after line where the cursor is
             shift-enter
- */
+*/
 
 //-----------------------------------------------------------------------------------
 // Optimize the imports
@@ -48,6 +48,7 @@ public class Kata02_reformatting {
     //-----------------------------------------------------------------------------------
     // Add blank lines before the return statement.
     // Add blank lines after the return statement.
+    // With cursor on "public" insert a blank line as first line of the function
     //-----------------------------------------------------------------------------------
     public static int lineMethod() {
         return 1;

@@ -1,5 +1,11 @@
 /*
     Cheat Sheet:
+        collapse/expand a function
+            command-+
+            command--
+        collapse-expand everything
+            shift-command-+
+            shift-command--
         comment out with line comment
             command-/
         comment out with block comment
@@ -14,6 +20,7 @@
  */
 
 import java.io.ByteArrayOutputStream;
+
 
 public class Kata01_selectionAndComments {
 
@@ -38,6 +45,7 @@ public class Kata01_selectionAndComments {
     // Do this two different ways
     //      1) Using the "increasing code blocks (like above)
     //      2) By positioning on the 'f' and jumping to the end of the block
+    //      3) Collapse and expand the function
     //--------------------------------------------------------------------------------------------------------------
 
     public static void mysteryCode() throws Exception {
@@ -56,6 +64,12 @@ public class Kata01_selectionAndComments {
             }
         }
     }
+
+    //--------------------------------------------------------------------------------------------------------------
+    // Collapse everything in the file.
+    // Expand everything
+    //--------------------------------------------------------------------------------------------------------------
+
 
     //-----------------------------------------------------------------------------------
     // Comment out the line below with a line comment

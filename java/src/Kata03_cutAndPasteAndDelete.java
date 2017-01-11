@@ -47,7 +47,9 @@ public class Kata03_cutAndPasteAndDelete {
 
 
     //-----------------------------------------------------------------------------------
-    // Show/Use last N clipboard entries
+    // with the cursor at 'V' delete to the start of word
+    // with the cursor just after "name" delete to the end of the word
     //-----------------------------------------------------------------------------------
+    int garbageVariableNameGarbage = 0;
 
 }
